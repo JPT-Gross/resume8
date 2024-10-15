@@ -211,3 +211,30 @@ article h1 {
 article p {
     font-size: 14pt;
 }
+
+footer {
+    color: white;
+    font-size: 12pt;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+footer h1 {
+    float: left;
+    text-transform: uppercase;
+}
+
+footer a {
+    float: right;
+    color: white;
+    text-decoration: none;
+    padding: 0 20px 0 20px;
+}
+
+footer a.active {
+    color: #f09600;
+}
+
+footer a:hover {
+    color: black;
+}
